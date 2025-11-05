@@ -276,8 +276,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/cust_color_dsi_m16_36_02_0b_dsc_vdo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_dsi_m16_36_02_0b_dsc_vdo.xml \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/cust_color_dsi_m16_42_0d_0a_dsc_vdo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_dsi_m16_42_0d_0a_dsc_vdo.xml \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/cust_color_dsi_m16_45_02_0c_dsc_vdo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_dsi_m16_45_02_0c_dsc_vdo.xml \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/dolby/dax-rubypro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-rubypro.xml \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -331,7 +329,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
@@ -557,7 +554,6 @@ PRODUCT_PACKAGES += \
     libthha \
     libvpu \
     libmtk_drvb \
-    vendor.dolby.hardware.dms@2.0 \
     vendor.mediatek.hardware.nvram@1.0 \
     vendor.mediatek.hardware.nvram@1.1 \
     AV1SecureVdecCA \
@@ -1403,7 +1399,6 @@ PRODUCT_PACKAGES += \
     libdip_postproc \
     libdlbdsservice \
     libdolbyottcameracontrol \
-    libdolbyplugin \
     libdre \
     libeffecthal.base \
     libfeature.face \
@@ -1614,7 +1609,6 @@ PRODUCT_PACKAGES += \
     secure_element-impl \
     libswgamedap \
     libswvqe \
-    vendor.dolby.hardware.dms@2.0-impl \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
@@ -1694,7 +1688,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_media_c2_V1_1_default.xml \
     manifest_microtrust_wechat.xml \
-    manifest_vendor.dolby.hardware.dms.xml \
     microtrust_thh_manifest.xml \
     batterysecret \
     bp_kmsetkey_ca \
@@ -1716,7 +1709,6 @@ PRODUCT_PACKAGES += \
     camerahalserver \
     mtkfusionrild \
     tetheroffloadservice \
-    vendor.dolby.hardware.dms@2.0-service \
     vendor.mediatek.hardware.mms@1.6-service \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \
