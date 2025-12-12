@@ -30,18 +30,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -67,18 +55,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libTEECommon.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -95,23 +71,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libaedv.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libbase",
-                "libunwindstack",
-                "libselinux",
-                "liblog",
-                "libz",
-                "libc",
-                "libdl",
-                "libm",
-                "libc++",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libaedv.so",
             ],
             shared_libs: [
                 "libcutils",
@@ -156,23 +115,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libapu_mdw.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libdmabufheap",
-                "liblog",
-                "libcutils",
-                "libion",
-                "libion_mtk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -189,22 +131,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libapusys.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
-                "libcutils",
-                "libion",
-                "libion_mtk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libapusys.so",
             ],
             shared_libs: [
                 "libbase",
@@ -245,20 +171,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libbwc.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -285,19 +197,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcustom_nvram.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -314,20 +213,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libdapparamstorage.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libdapparamstorage.so",
             ],
             shared_libs: [
                 "libcutils",
@@ -368,22 +253,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libdeccfg.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "vendor.dolby.hardware.dms@2.0",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -400,20 +269,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libfile_op.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libnvram",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libfile_op.so",
             ],
             shared_libs: [
                 "libcutils",
@@ -451,19 +306,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgz_gp_client.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libgz_uree",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -480,18 +322,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libgz_uree.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgz_uree.so",
             ],
             shared_libs: [
                 "liblog",
@@ -526,18 +356,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libimsg_log.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -554,21 +372,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libion_mtk.so",
-            ],
-            shared_libs: [
-                "libion",
-                "liblog",
-                "libion_ulit",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libion_mtk.so",
             ],
             shared_libs: [
                 "libion",
@@ -608,20 +411,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libion_ulit.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "liblog",
-                "libladder",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -638,20 +427,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libladder.so",
-            ],
-            shared_libs: [
-                "libunwindstack",
-                "liblog",
-                "libbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libladder.so",
             ],
             shared_libs: [
                 "libunwindstack",
@@ -691,21 +466,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmisight.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libjsoncpp",
-                "libc",
-                "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -722,18 +482,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libmtkcutils.so",
-            ],
-            shared_libs: [
-                "libmtkrillog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmtkcutils.so",
             ],
             shared_libs: [
                 "libmtkrillog",
@@ -768,18 +516,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmtkproperty.so",
-            ],
-            shared_libs: [
-                "libmtkrillog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -805,18 +541,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmtkrillog.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -833,22 +557,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libnvram.so",
-            ],
-            shared_libs: [
-                "libbase_shim",
-                "libcutils",
-                "libbase",
-                "liblog",
-                "libnvram_sec",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libnvram.so",
             ],
             shared_libs: [
                 "libbase_shim",
@@ -888,19 +596,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libnvram_sec.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -917,20 +612,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libteeclientjni_isee.so",
-            ],
-            shared_libs: [
-                "libTEECommon",
-                "libimsg_log",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libteeclientjni_isee.so",
             ],
             shared_libs: [
                 "libTEECommon",
@@ -970,21 +651,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libteeclientjni_isee@1.1.so",
-            ],
-            shared_libs: [
-                "libTEECommon",
-                "libimsg_log",
-                "liblog",
-                "libmisight",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -1001,18 +667,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libteei_daemon_vfs.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libteei_daemon_vfs.so",
             ],
             shared_libs: [
                 "liblog",
@@ -1047,18 +701,6 @@ cc_prebuilt_library_shared {
                 "liblog",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libthha.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libdl",
-                "libc",
-                "libm",
-                "liblog",
-            ],
-        },
     },
     compile_multilib: "both",
     check_elf_files: false,
@@ -1076,23 +718,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libvpu.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libion",
-                "liblog",
-                "libcutils",
-                "libapusys",
-                "libion_mtk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvpu.so",
             ],
             shared_libs: [
                 "libbase",
@@ -1134,20 +759,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6877/libmtk_drvb.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     relative_install_path: "mt6877",
@@ -1165,21 +776,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so",
             ],
             shared_libs: [
                 "libhidlbase",
@@ -1220,21 +816,6 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
     },
     compile_multilib: "both",
     prefer: true,
@@ -1251,22 +832,6 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so",
-            ],
-            shared_libs: [
-                "vendor.mediatek.hardware.nvram@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so",
             ],
             shared_libs: [
                 "vendor.mediatek.hardware.nvram@1.0",
@@ -2111,34 +1676,6 @@ cc_prebuilt_library_shared {
                 "libm",
                 "libc++",
                 "libc",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libfgauge_gm30",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libfgauge_gm30.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libmtk_drvb",
-                "libc++",
-                "libc",
-                "libm",
                 "libdl",
             ],
         },
@@ -28526,6 +28063,55 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmtkmipc-ril",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmtkmipc-ril.so",
+            ],
+            shared_libs: [
+                "libmtkutils",
+                "librilfusion",
+                "libmtknetutils",
+                "libratconfig",
+                "libmtksysutils",
+                "libmtkhardware_legacy",
+                "libsysenv",
+                "libmtkrilutils",
+                "libcrypto",
+                "libmtkcutils",
+                "libmtkproperty",
+                "libmtkrillog",
+                "libmtkconfigutils",
+                "libmtktinyxml",
+                "libmtkares",
+                "libnvram",
+                "vendor.mediatek.hardware.nvram@1.1",
+                "libbinder",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libmtknetcap",
+                "libwpfa",
+                "libaedv",
+                "libmipc",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libmtknetcap",
     owner: "xiaomi",
     strip: {
@@ -29127,6 +28713,34 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "librpc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/librpc.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libccci_util",
+                "libpower",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libsensor_custom",
     owner: "xiaomi",
     strip: {
@@ -29419,6 +29033,64 @@ cc_prebuilt_library_shared {
                 "libmtkrillog",
                 "libmtkrilutils",
                 "libmtk-ril",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libviagpsrpc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libviagpsrpc.so",
+            ],
+            shared_libs: [
+                "librpc",
+                "liblog",
+                "libcutils",
+                "libccci_util",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libviamipc-ril",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libviamipc-ril.so",
+            ],
+            shared_libs: [
+                "libmtkcutils",
+                "libmtkutils",
+                "libmtkproperty",
+                "libmtkrillog",
+                "libmtkrilutils",
+                "libmtkmipc-ril",
                 "libc++",
                 "libc",
                 "libm",
@@ -32395,9 +32067,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "manifest_media_c2_V1_1_default.xml",
+    name: "manifest_media_c2_V1_2_default.xml",
     owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml",
+    src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -32595,61 +32267,6 @@ cc_prebuilt_binary {
                 "libmisight",
                 "libTEECommon",
                 "libmfido_isee",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "fuelgauged",
-    owner: "xiaomi",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/fuelgauged",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "fuelgauged_nvram",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/fuelgauged_nvram",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "libnvram",
-                "liblog",
                 "libc++",
                 "libc",
                 "libm",
