@@ -342,41 +342,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-iseeservice.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/LibertyGlobalEnterprise-Root-CA-G1.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/LibertyGlobalEnterprise-Root-CA-G1.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/Root-R3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root-R3.cer \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/Root_CA_1003.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root_CA_1003.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G4.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G4.der \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G5.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G5.der \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/ikev2/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/thawte.der \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/AAACertificateServices.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/AAACertificateServices.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/CertumCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumCA.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2_root.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2_root.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/StaatDerNederlandenEVRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatDerNederlandenEVRootCA.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/certSIGN_ROOT_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/certSIGN_ROOT_CA.crt \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/md/cacerts/tls/securitycertificateofKPN.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/securitycertificateofKPN.crt \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/mdota/MTK_MD_OTA_CONFIG.ini:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_MD_OTA_CONFIG.ini \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/mdota/MTK_OPOTA_GENERAL.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_GENERAL.mcfopota \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1.mcfopota \
@@ -710,7 +675,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/firmware/txpowerctrl_in.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_in.cfg \
     vendor/xiaomi/rubyx/proprietary/vendor/firmware/txpowerctrl_in_u.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl_in_u.cfg \
     vendor/xiaomi/rubyx/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
-    vendor/xiaomi/rubyx/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/xiaomi/rubyx/proprietary/vendor/thh/ta/0102030405060708090a0b0c0d0e0f10.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/0102030405060708090a0b0c0d0e0f10.ta \
     vendor/xiaomi/rubyx/proprietary/vendor/thh/ta/020f0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020f0000000000000000000000000000.ta \
     vendor/xiaomi/rubyx/proprietary/vendor/thh/ta/05120000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/05120000000000000000000000000000.ta \
@@ -777,7 +741,6 @@ PRODUCT_PACKAGES += \
     HEVCSecureVdecCA \
     VP9SecureVdecCA \
     audio.primary.mt6877 \
-    audio.r_submix.mt6877 \
     sound_trigger.primary.default \
     libHEVCdec_sa.ca7.android \
     libMtkSpeechEnh \
