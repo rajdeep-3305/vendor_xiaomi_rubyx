@@ -741,6 +741,7 @@ PRODUCT_PACKAGES += \
     HEVCSecureVdecCA \
     VP9SecureVdecCA \
     audio.primary.mt6877 \
+    audio.r_submix.mt6877 \
     sound_trigger.primary.default \
     libHEVCdec_sa.ca7.android \
     libMtkSpeechEnh \
