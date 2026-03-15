@@ -22868,10 +22868,11 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_vdec",
+    check_elf_files: false,
     owner: "xiaomi",
     strip: {
         none: true,
-    },
+},
     target: {
         android_arm64: {
             srcs: [
@@ -22901,7 +22902,6 @@ cc_prebuilt_library_shared {
                 "libdmabufheap",
                 "libion_mtk",
                 "libcodec2_mtk_c2store",
-                "libcodec2_vpp_dolby_plugin",
                 "libc++",
                 "libc",
                 "libm",
@@ -22917,9 +22917,10 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_venc",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
-    },
+},
     target: {
         android_arm64: {
             srcs: [
