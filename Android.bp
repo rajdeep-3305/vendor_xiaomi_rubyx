@@ -1286,36 +1286,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.r_submix.mt6877",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/audio.r_submix.mt6877.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmedia_helper",
-                "libutils",
-                "libnbaio_mono",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "sound_trigger.primary.default",
     owner: "xiaomi",
     strip: {
@@ -31976,15 +31946,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "manifest_media_c2_V1_2_default.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "manifest_microtrust_wechat.xml",
     owner: "xiaomi",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_microtrust_wechat.xml",
@@ -32371,49 +32332,6 @@ cc_prebuilt_binary {
                 "android.hardware.keymaster@4.1",
                 "libkeymaster4_1support",
                 "libTEECommon",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.media.c2@1.2-mediatek-64b",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b",
-            ],
-            shared_libs: [
-                "libstagefright_foundation-v33",
-                "libbase",
-                "liblog",
-                "libcodec2",
-                "libutils",
-                "android.hardware.media.c2@1.0",
-                "android.hardware.media.c2@1.1",
-                "android.hardware.media.c2@1.2",
-                "libcodec2_hidl@1.0",
-                "libcodec2_hidl@1.1",
-                "libcodec2_hidl@1.2",
-                "libcodec2_vndk",
-                "libhidlbase",
-                "libavservices_minijail",
-                "libbinder",
-                "libcodec2_mtk_c2store",
-                "libcodec2_mtk_vdec",
-                "libcodec2_mtk_venc",
                 "libc++",
                 "libc",
                 "libm",
@@ -33303,13 +33221,6 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
-}
-
-install_symlink {
-    name: "vendor_bin_hw_android_hardware_media_c2@1_2-mediatek",
-    soc_specific: true,
-    installed_location: "bin/hw/android.hardware.media.c2@1.2-mediatek",
-    symlink_target: "/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b",
 }
 
 install_symlink {
