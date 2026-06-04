@@ -1830,7 +1830,6 @@ PRODUCT_PACKAGES += \
     gnss-mtk.xml \
     gnss@2.1-service.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
-    manifest_media_c2_V1_2_default.xml \
     manifest_microtrust_wechat.xml \
     microtrust_thh_manifest.xml \
     batterysecret \
