@@ -1746,6 +1746,7 @@ PRODUCT_PACKAGES += \
     libvidhance_active_ois \
     libvidhance_ldc \
     libvidhance_stabilizer \
+    libwifi-hal-mtk \
     libwpfa \
     libwvhidl \
     libwvkeybox \
@@ -1822,6 +1823,7 @@ PRODUCT_PACKAGES += \
     wechat.beanpod \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
     vendor.mediatek.hardware.videotelephony@1.0 \
+    MtkGbaService \
     HotwordEnrollmentOKGoogleRISCV \
     HotwordEnrollmentXGoogleRISCV \
     com.android.hotwordenrollment.common.util \
