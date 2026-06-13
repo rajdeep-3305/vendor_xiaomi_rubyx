@@ -278,14 +278,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/cust_color_dsi_m16_42_0d_0a_dsc_vdo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_dsi_m16_42_0d_0a_dsc_vdo.xml \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/cust_color_dsi_m16_45_02_0c_dsc_vdo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_dsi_m16_45_02_0c_dsc_vdo.xml \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_OP09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP09.xml \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_OP12.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP12.xml \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_OP17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP17.xml \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
