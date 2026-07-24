@@ -317,7 +317,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/microtrust.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
-    vendor/xiaomi/rubyx/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
     vendor/xiaomi/rubyx/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
@@ -1858,7 +1857,6 @@ PRODUCT_PACKAGES += \
     mnld \
     mtd_isee@1.3 \
     mtk_agpsd \
-    netdagent \
     nvram_daemon \
     teei_daemon \
     thermal \
