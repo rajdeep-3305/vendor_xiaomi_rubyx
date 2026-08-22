@@ -1568,7 +1568,7 @@ PRODUCT_PACKAGES += \
     libfeatureiodrv_mem \
     libfiltersimulation \
     libforkexecwrap \
-    libformatter \
+    libformatter_mtk \
     libgamehdr \
     libged \
     libgf_ca \
@@ -1616,7 +1616,7 @@ PRODUCT_PACKAGES += \
     libmlipay_isee@1.1 \
     libmml \
     libmnetlink_v104 \
-    libmnl \
+    libmnl_mtk \
     libmp3dec_mtk \
     libmpbase \
     libmsnr \
