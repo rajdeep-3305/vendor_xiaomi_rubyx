@@ -24903,7 +24903,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libsync",
-                "libutils",
+                "libutils_mtk",
                 "libcutils",
                 "libhardware",
                 "libnativewindow",
@@ -29005,6 +29005,33 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libion",
                 "libion_mtk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libutils_mtk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libutils_mtk.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libvndksupport",
                 "libc++",
                 "libc",
                 "libm",

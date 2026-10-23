@@ -1728,6 +1728,7 @@ PRODUCT_PACKAGES += \
     libtrm \
     libudf \
     liburee_meta_drmkeyinstall \
+    libutils_mtk \
     libvia-ril \
     libviagpsrpc \
     libviamipc-ril \
